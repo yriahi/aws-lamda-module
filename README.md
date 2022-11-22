@@ -19,7 +19,7 @@ module "example_lambda_instance" {
   ]
   environment = {
     variables = {
-      SSM_PARAMETER_NAME = var.golden_ami_ssm_parameter_path
+      SSM_PARAMETER_NAME = var.ami_ssm_parameter_path
       ENVIRONMENT_NAME   = var.environment_name
     }
   }
